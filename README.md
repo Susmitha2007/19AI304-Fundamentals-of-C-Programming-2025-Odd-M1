@@ -26,7 +26,24 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+#include <stdio.h>
+int main() {
+    int intLiteral = 100;
+    float floatLiteral = 12.345;
+    char charLiteral = 'A';
+    char stringLiteral[] = "Hello, Susmitha!";
+    printf("Integer Literal: %d\n", intLiteral);
+    printf("Float Literal: %.3f\n", floatLiteral);
+    printf("Character Literal: %c\n", charLiteral);
+    printf("String Literal: %s\n", stringLiteral);
+    return 0;
+}
+
 # Output:
+
+<img width="1681" height="400" alt="Screenshot 2025-11-19 132031" src="https://github.com/user-attachments/assets/322789c0-ec01-45a7-a1b4-252190ed2eed" />
+
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
